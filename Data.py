@@ -61,7 +61,7 @@ def tfidf(x):
 df = input_data("Amazon_Unlocked_Mobile.csv")
 x_train, x_test, y_train, y_test = test_train(df)
 
-def process(typ):
+def process():
 	
 	x_train = clean_data(x_train)
 	x_test = clean_data(x_test)
