@@ -1,7 +1,7 @@
 from sklearn import linear_model
 import Data
 from sklearn.metrics import accuracy_score
-x_train, x_test, y_train, y_test = Data.load()
+x_train, x_test, y_train, y_test = Data.process()
 
 vec1 = Data.tfidf(x_train)
 x_train1 = vec1.transform(x_train)
